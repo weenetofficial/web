@@ -1,6 +1,7 @@
 // ===== SHARED JS FOR REGISTRATION PAGES =====
 
 function toggleAddon(el) {
+    event.preventDefault();
     el.classList.toggle('selected');
     const cb = el.querySelector('input[type="checkbox"]');
     cb.checked = !cb.checked;
