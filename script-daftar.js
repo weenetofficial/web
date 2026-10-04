@@ -71,7 +71,7 @@ function sendToWA() {
     if (catatan) msg += `\n📝 *CATATAN*\n${catatan}\n`;
 
     const encoded = encodeURIComponent(msg);
-    window.open(`https://wa.me/6285123117516?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/6285280438680?text=${encoded}`, '_blank');
 }
 
 // Close modal on outside click
